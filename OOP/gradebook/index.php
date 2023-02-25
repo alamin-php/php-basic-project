@@ -1,7 +1,7 @@
 <?php
     require_once 'gradebook.php';
-    require_once 'course.php.php';
-    require_once 'student.php.php';
+    require_once 'course.php';
+    require_once 'student.php';
 
     $student1 = new Student('s001', 'Asfiya Jannat Orin');
     $student2 = new Student('s002', 'Moni');
@@ -63,16 +63,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            <?php foreach ($gradebook->getCourses() as $course): ?>
-                            <?php foreach ($course->getStudents() as $student): ?>
+                                <?php foreach ($gradebook->getCourses() as $course): ?>
+                                <?php foreach ($course->getStudents() as $student): ?>
                                 <tr>
                                     <td>1</td>
                                     <td><?php echo $student->getName();?></td>
                                     <td><?php echo $course->getName();?></td>
                                     <td><?php echo $course->getGrade($student->getId());?></td>
                                 </tr>
-                            <?php endforeach;?>
-                            <?php endforeach;?>
+                                <?php endforeach;?>
+                                <?php endforeach;?>
                             </tbody>
                         </table>
                     </div>
