@@ -1,3 +1,37 @@
+<?php
+    require_once 'gradebook.php';
+    require_once 'course.php.php';
+    require_once 'student.php.php';
+
+    $student1 = new Student('s001', 'Asfiya Jannat Orin');
+    $student2 = new Student('s002', 'Moni');
+    $student3 = new Student('s003', 'Al-Amin');
+
+//  this course for math student
+    $course1 = new Course('c001', 'Math');
+    $course1->addStudent($student1);
+    $course1->addStudent($student2);
+    $course1->addStudent($student3);
+
+    $course1->addGrade('s001', 80);
+    $course1->addGrade('s002', 85);
+    $course1->addGrade('s003', 90);
+
+//  this course for java student
+    $course2 = new Course('c002', 'Java');
+    $course2->addStudent($student1);
+    $course2->addStudent($student2);
+    $course2->addStudent($student3);
+
+    $course2->addGrade('s001', 70);
+    $course2->addGrade('s002', 90);
+    $course2->addGrade('s003', 87);
+
+    $gradebook = new Gradebook();
+    $gradebook->addCourse($course1);
+    $gradebook->addCourse($course2);
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -29,12 +63,16 @@
                                 </tr>
                             </thead>
                             <tbody>
+                            <?php foreach ($gradebook->getCourses() as $course): ?>
+                            <?php foreach ($course->getStudents() as $student): ?>
                                 <tr>
                                     <td>1</td>
-                                    <td>Al-Amin</td>
-                                    <td>PHP with Laravel Development</td>
-                                    <td>80</td>
+                                    <td><?php echo $student->getName();?></td>
+                                    <td><?php echo $course->getName();?></td>
+                                    <td><?php echo $course->getGrade($student->getId());?></td>
                                 </tr>
+                            <?php endforeach;?>
+                            <?php endforeach;?>
                             </tbody>
                         </table>
                     </div>

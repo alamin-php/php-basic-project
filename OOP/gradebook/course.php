@@ -31,9 +31,22 @@ class Course{
         return $this->students;
     }
 
-    public function addGrade($studentId)
+    public function addGrade($studentId, $grade)
     {
-        $this->grades
+        $this->grades[$studentId] = $grade;
+    }
+
+    public function getGrade($studentId){
+        return isset($this->grades[$studentId]) ? $this->grades[$studentId] : null;
+    }
+    public function getAvarageGrade(){
+        $total = 0;
+        $count = count($this->grades);
+        foreach ($this->grades as $grade){
+            $total+=$grade;
+        }
+        return $count > 0 ? $total / $count : 0;
+
     }
 }
 ?>
