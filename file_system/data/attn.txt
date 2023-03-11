@@ -1,0 +1,42 @@
+ Emp No.                     Name     Date Clock In Clock Out  Late Early Absent
+
+       1           Ariful Maleque 3/9/2023    09:09     19:25                   
+       2             Hafiza akter 3/9/2023    08:59     20:04                   
+       3 A.K.M Zahirul Islam Khan 3/9/2023                                     Y
+       4             Arif hossain 3/9/2023              15:40 01:00 01:20       
+       5            Mutaleb Hosen 3/9/2023                                     Y
+       6   Engr. Mahbubur Rahman  3/9/2023                                     Y
+       7       MD Younus ali Khan 3/9/2023                                     Y
+      10          Shahadat Hossen 3/9/2023    08:15     20:14                   
+       8 9A.K.M Zahirul Islam Kha 3/9/2023    09:01     20:04                   
+       9            Md Ruhul Amin 3/9/2023                                     Y
+      11         Md Tarikul Islam 3/9/2023    09:16           00:16 01:00       
+      12                    Uzzal 3/9/2023                                     Y
+      13                 Md.Sumon 3/9/2023    08:14     19:45                   
+      14                  Fakhrul 3/9/2023                                     Y
+      16                     Apon 3/9/2023                                     Y
+      15                  Delowar 3/9/2023                                     Y
+      17              Mdaliashraf 3/9/2023                                     Y
+      18               Ranoykumar 3/9/2023    09:11           00:11 01:00       
+      19                  EHSANUL 3/9/2023    09:28           00:28 01:00       
+      20           Salahuddinkhan 3/9/2023    08:49                 01:00       
+      21                   Alamin 3/9/2023                                     Y
+      22                  Tanshen 3/9/2023                                     Y
+      23            Mahmudulhasan 3/9/2023                                     Y
+      24            Mamunurrahman 3/9/2023                                     Y
+      25              Ifradmunshi 3/9/2023                                     Y
+      26             Mdtamilhasan 3/9/2023                                     Y
+      27            Farzanarahman 3/9/2023                                     Y
+      28               Sittulmuna 3/9/2023    08:27     19:21                   
+      29          Mdshahidulislam 3/9/2023                                     Y
+      30    Ummehusaineemumtahena 3/9/2023    09:14     19:17 00:14             
+      31             Shamsunnaher 3/9/2023                                     Y
+      32           ASMABINTEHANIF 3/9/2023    08:56     19:21                   
+      33             Mdamirfaisal 3/9/2023    08:50     19:58                   
+      34                Masudrana 3/9/2023                                     Y
+      35             Shimulpandey 3/9/2023                                     Y
+      36          Tafazzalhossain 3/9/2023    08:40                 01:00       
+      39         Alfaisalurrahman 3/9/2023    09:50     20:14 00:50             
+      38            Mdalamhossain 3/9/2023    09:07     19:34                   
+      40                   Hapsan 3/9/2023    09:07     18:40                   
+
