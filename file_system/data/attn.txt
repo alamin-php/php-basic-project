@@ -1,6 +1,4 @@
- Emp No.                     Name     Date Clock In Clock Out  Late Early Absent
-
-       1           Ariful Maleque 3/9/2023    09:09     19:25                   
+        1           Ariful Maleque 3/9/2023    09:09     19:25                   
        2             Hafiza akter 3/9/2023    08:59     20:04                   
        3 A.K.M Zahirul Islam Khan 3/9/2023                                     Y
        4             Arif hossain 3/9/2023              15:40 01:00 01:20       
